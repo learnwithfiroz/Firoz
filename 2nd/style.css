@@ -1,0 +1,111 @@
+*{ margin:0;padding: 0; font-family: tohoma;}
+
+.maincontianer{
+    background-image:url("images/download.jpg");
+	background-position:center;
+	 background-size: cover;
+	height: 100vh;
+}
+.column {
+    width: 1170px;
+    margin: auto;
+    height: 107px;
+	
+}
+.logo{   float: left;
+		margin-top:10px;
+}
+.logo img{
+  
+     height: 100px;
+     width: 100px;
+}
+.manu{
+    float: right;
+
+}
+.manu ul{
+	list-style:none;
+}
+.manu ul li{
+	display:inline-block;
+}
+.manu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 37px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+    display: block;
+    margin-top: 22px;
+}
+.manu ul li a:hover{
+	background-color: #fff;
+	color:black;
+}
+
+
+.title
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1
+{
+    color: white;
+    font-size: 60px;
+	text-align:center;
+	
+}
+.title p
+{
+    color: white;
+    font-size: 50px;
+	text-align:center;
+	
+}
+.title a {
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: #fff;
+    padding: 8px 44px;
+    border-radius: 5px;
+}
+
+.Portfolio{
+	position: absolute;
+	top: 60%;
+	left:42%;
+}
+.Portfolio h1{
+	color:#fff;
+	text-align:center;
+}
+.slider
+{
+    
+    position: absolute;
+    top: 70%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
