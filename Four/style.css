@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: :0;
+}
+
+.containner {
+    width: 1200px;
+    margin: auto;
+}
+
+.banner {
+    background: green;
+    border-bottom: 3px solid red;
+}
+
+.navigation {
+    width: :100%;
+    margin: auto
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 16px 10px 13px 10px;
+    background: #5BB53B;
+    margin-right: 1px;
+
+}
+
+.navigation ul li a:hover {
+
+    transition-duration: .03s;
+    background: darkgreen;
+    color: #ffff;
+
+}
+button.owl-prev {
+    position: absolute;
+    top: 35%;
+     left: 30px;
+    
+}
+
+button.owl-next {
+    position: absolute;
+    top: 30%;
+    left: auto;
+    right: 30px;
+}
+span {
+    color: #fff;
+    font-size: 43px;
+}
